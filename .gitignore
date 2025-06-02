@@ -1,9 +1,21 @@
-# Ignore all environment files
+# Ignore all environment variable files
+.env
 *.env
 
-# Optional: Ignore model checkpoints, logs, etc.
+# Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Model and scaler files
 *.h5
 *.pkl
-*.log
-__pycache__/
 models/
+
+# Jupyter and VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
