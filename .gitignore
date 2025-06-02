@@ -1,0 +1,9 @@
+# Ignore all environment files
+*.env
+
+# Optional: Ignore model checkpoints, logs, etc.
+*.h5
+*.pkl
+*.log
+__pycache__/
+models/
